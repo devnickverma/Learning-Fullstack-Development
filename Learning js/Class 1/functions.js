@@ -1,14 +1,14 @@
-function sum(a, b) {
-  return a + b;
+function sum(a, b, fnToCall) {
+  let ans = a + b;
+  fnToCall(ans);
 }   
 
-function displayResult() {
-  console.log("Result of the sum is : " + sum(10, 20));
+function displayResult(data) {
+  console.log("Result of the sum is : " + data);
 }
 
-function displayResultPassive() {
-  console.log("Result of the sum is : " + sum(10, 20));
+function displayResultPassive(data) {
+  console.log("Sum's result is : " + data);
 }
 
-displayResult();
-displayResultPassive();
+const ans = sum(2,3, displayResult);
