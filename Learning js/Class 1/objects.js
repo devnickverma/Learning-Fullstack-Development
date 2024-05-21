@@ -1,3 +1,4 @@
+// Creating a new object
 const user1 = [{
     fname: "Nikhil",
     gender: "Male",
