@@ -1,7 +1,6 @@
-let ans = 0;
-
+let sum = 0;
 for(let i=1; i<=1000; i++){
-  ans += i;
+  sum += i;
+  
 }
-
-console.log(ans);
+console.log(sum);
