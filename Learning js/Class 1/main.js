@@ -7,5 +7,5 @@ console.log("This person's name is " + fname + " and he is " + age + " years old
 if (isSingle == true) {
   console.log(" and he is single.");
 } else {
-  console.log(" he is not single.");
+  console.log(" and he is not single.");
 }
