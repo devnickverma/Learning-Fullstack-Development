@@ -1,0 +1,16 @@
+MongoDB 
+
+Username
+DevAdmin
+
+Password
+7xjRivWzhu8La3Jt
+
+MongoDB
+URL :- mongodb+srv://DevAdmin:<db_password>@cluster0.vymnl.mongodb.net/
+
+NeonDB
+URL :- postgresql://Test_owner:OSBErh3xcvy2@ep-silent-boat-a5m2fom5.us-east-2.aws.neon.tech/Test?sslmode=require
+
+
+
